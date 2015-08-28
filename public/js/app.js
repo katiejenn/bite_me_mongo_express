@@ -30,6 +30,7 @@ function getFoods() {
   });
 }
 
+//MODIFY TO RETRIEVE FROM DATABASE
 function renderFoods(foods) {
   template = _.template($("#foods-template").html());
   // input foods into template and append to parent
